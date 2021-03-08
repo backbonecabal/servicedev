@@ -1,11 +1,4 @@
-# Opinionated Nix repository template
-
-```bash
-wget https://github.com/sambacha/nix-template/archive/master.zip
-```
-
-
-Based on [nix.dev](https://nix.dev) tutorials, repository template to get you started with [Nix](https://nixos.org/):
+# [nginx-nix](#)
 
 - [niv](https://github.com/nmattia/niv) for painless dependency management (aka pinning) with a daily cronjob to bump dependencies
 - [gitignore.nix](https://github.com/hercules-ci/gitignore.nix) for respecting `.gitignore` when using your project as a source
@@ -15,9 +8,12 @@ Based on [nix.dev](https://nix.dev) tutorials, repository template to get you st
 
 ## Getting started
 
-1. Follow tutorial for [creating a binary cache](https://nix.dev/tutorials/continuous-integration-github-actions.html)
-2. Replace ``nix-getting-started-template`` in ``.github/workflows/test.yml`` with the name of your binary cache
+
 
 ## Using the project
 
 Follow [direnv setup](https://nix.dev/tutorials/declarative-and-reproducible-developer-environments.html#direnv-automatically-activating-the-environment-on-directory-change) and run `direnv allow`
+
+## License 
+
+Apache-2.0
