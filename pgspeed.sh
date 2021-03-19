@@ -1,6 +1,5 @@
 #!/bin/bash
-NPS_VERSION=1.14.36
-cd
+NPS_VERSION=1.14.33.1-RC1
 wget -O- https://github.com/apache/incubator-pagespeed-ngx/archive/v${NPS_VERSION}.tar.gz | tar -xz
 nps_dir=$(find . -name "*pagespeed-ngx-${NPS_VERSION}" -type d)
 cd "$nps_dir"
